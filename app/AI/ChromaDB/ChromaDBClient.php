@@ -15,7 +15,7 @@ class ChromaDBClient
     private Client $httpClient;
 
     public function __construct(
-        string $url = 'http://localhost:8080/',
+        string $url = 'http://localhost:7700/',
         string $tenant = 'default_tenant',
         string $database = 'default_database',
     )

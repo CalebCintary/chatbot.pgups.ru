@@ -68,7 +68,7 @@ class MyChatBot extends RAG
     {
         return new ChromaVectorStore(
             collection: 'neuron-ai',
-            host: 'http://localhost:8080',
+            host: 'http://localhost:7700',
             topK: 8
         );
     }
