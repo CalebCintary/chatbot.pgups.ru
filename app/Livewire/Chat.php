@@ -2,8 +2,8 @@
 
 namespace App\Livewire;
 
+use App\AI\Models\MyChatBot;
 use Livewire\Component;
-use MyChatBot;
 use NeuronAI\Chat\Messages\UserMessage;
 
 class Chat extends Component

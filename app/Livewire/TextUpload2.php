@@ -2,16 +2,16 @@
 
 namespace App\Livewire;
 
+use App\AI\Models\MyChatBot;
+use App\AI\Models\ScrapperAgent;
 use DOMDocument;
 use DOMXPath;
 use GuzzleHttp\Client;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
-use MyChatBot;
 use NeuronAI\Chat\Messages\UserMessage;
 use NeuronAI\RAG\DataLoader\StringDataLoader;
 use NeuronAI\RAG\Splitter\DelimiterTextSplitter;
-use ScrapperAgent;
 
 class TextUpload2 extends Component
 {

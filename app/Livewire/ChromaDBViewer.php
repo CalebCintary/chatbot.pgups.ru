@@ -42,9 +42,10 @@ class ChromaDBViewer extends Component
 
     public function render()
     {
+        $chromaDBClient = new ChromaDBClient();
         return view('livewire.chroma-d-b', [
             'records' => $this->records(),
-            'chromaCollections' => new ChromaDBClient()->listCollections(),
+            'chromaCollections' => $chromaDBClient->listCollections(),
         ]);
     }
 }

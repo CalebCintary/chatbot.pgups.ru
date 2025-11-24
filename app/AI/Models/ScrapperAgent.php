@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+namespace App\AI\Models;
 
 use NeuronAI\Agent;
 use NeuronAI\Providers\AIProviderInterface;
